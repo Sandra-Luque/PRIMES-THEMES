@@ -1,0 +1,111 @@
+/**{outline: 1px solid rgba(225,0,0, 0.4);
+
+}*/
+body{
+	font-family: 'Dosis', sans-serif;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4em;
+}
+h2,h3,h4,h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.header{
+	background: url(../img/background/hero.jpg);
+	background-size: 100% 130%;
+	min-width: 770px;
+	max-height: auto;
+	color: #fff;
+}
+.cont-header{
+	background: rgba(7, 11, 17, 0.5);
+	min-width: 770px;
+	max-height: auto;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu ul li.active a,
+.menu ul li a:hover{
+	color:#01DFA5;
+	text-decoration: none;
+}
+
+.menu,.logo{
+	margin-top: 5%;
+}
+.logo{
+	font-size: 1.5em;
+}
+.info-banner{
+	margin-top: 20%;
+	margin-bottom: 30%;
+}
+.info-banner p{
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+.info-banner button{
+	margin-top: 8%;
+	padding: 15px 30px;
+	margin: 20px;
+	background: rgba(7, 11, 17, 0.5);
+}
+
+/*Featues*/
+#Featues i{
+	color:#01DFA5;
+	font-size: 2em;
+}
+#Featues .item-featues{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#Featues .item-featues-2{
+	padding-bottom: 100px;
+}
+#Featues .item-featues p,.item-featues-2 p{
+	padding: 5px 30px;
+}
+.cont-features{
+	background: #eee;
+	padding: 50px 20px;
+}
+.cont-features img{
+	width: 100%;
+}
+
+.item-feature-3 h4,.item-feature-3 p{
+	text-align: left;
+}
+.item-feature-3 p{
+	padding-left: 30px;
+}
+/* Fin Featues*/
+
+/*Portafolio*/
+.cont-img-port{
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+img{
+	width: 100%;
+}
+/*media twitter*/
+@media only screen and(max-width: 750px){
+	.info-banner h1{
+		font-size: 5px;
+	}
+}
+

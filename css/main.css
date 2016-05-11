@@ -109,3 +109,96 @@ img{
 	}
 }
 
+p {
+	color: #999;
+	font-size: 16px;
+}
+.butoncall {
+	margin: 1%;
+	color: white;
+	padding: 3%;
+	font-size: 18px; 
+}
+.buton {
+	margin: 1%;
+	color: white;
+	padding: 2% 1%;
+	border-radius: 0;
+}
+.bgris {
+	background-color: #323A45;
+	color: #ccc;
+}
+.btransp {
+	background-color: rgba(150, 150, 150, 0.3);
+}
+.build {
+	background-image: url("../img/background/city.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+
+.call{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	text-align: center;
+	padding: 10% 25% 5% 25%;
+}
+
+.build p {
+	color: white;
+}
+.greyfont {
+	background-color: #F4F4F4;
+	padding: 2% 8%;
+	text-align: center;
+}
+.thumbnail {
+	padding: 0;
+	border-radius: 0;
+}
+.callintro p {
+	font-size: 21px;
+	padding-bottom: 10%;
+}
+
+/* cost */
+.row .space{
+	padding: 1% 0;
+}
+.cost .thumbnail* {
+	margin: 0;
+}
+.cost .thumbnail{
+	padding: 35px 20px;
+	margin-top: 30px;
+}
+.bar {
+	height: 100px;
+	background-color: #888;
+	color: white;
+	padding: 15px;
+}
+.premium {
+	background-color: #0DC0C0;
+}
+.dollar{
+	height: 150px;
+	background-color:#F4F4F4 ;
+	font-size: 20px;
+	padding: 50px 0;
+}
+.dollar p {
+	color: #323A45;
+}
+.dollar p span {
+	font-size: 30px;
+}
+.content {
+	padding-top: 12%;
+	padding-bottom: 0;
+}
+.content .btn-lg {
+	padding: 6px 14%;
+}

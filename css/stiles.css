@@ -59,9 +59,14 @@ p{
   font-size: 1.2em;
 }
 .info-banner button{
-  background: rgba(7, 11, 17, 0.6);
+  background: #393f41;
+  font-weight: bold;
+  font-size: 1.5em;
   padding: 15px 20px;
-  margin: 40px 30px;
+  margin: 40px 10px;
+}
+.info-banner .trans{
+  background: rgba(115, 119, 127, 0.3);
 }
 
 /*Featues*/
@@ -319,3 +324,30 @@ hr{
   font-weight: 600;
 }
 /* fin Footer*/
+
+/*para movil*/
+@media(max-width: 750px){
+  .menu {
+    margin-top: 0;
+    
+  }
+}
+@media(max-width: 750px){
+  .menu  li a{
+    font-size: 1.5em;
+  }
+  .info-banner{
+    padding: 40px 150px 250px 150px;
+  }
+  .info-banner h1{
+    font-size: 4em;
+    margin-bottom: 10px;
+  }
+  .info-banner p{
+    font-size: 1.7em;
+    font-weight: normal;
+    line-height: .9;
+  }
+
+}
+

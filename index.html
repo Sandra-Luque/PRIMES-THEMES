@@ -3,57 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/stiles.css">
   <title>Primes</title>
 
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+ <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
 
-  <script src="js/jquery-1.12.3.min.js"></script>
-   <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<section id="header">
-	<div class="header text-center">
+<div class="wrapper">
+	
+	<div class="header ">
 		<div class="cont-header">
 			<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="logo text-left">
-						<i class="fa fa-star-half-o" aria-hidden="true"></i>
-						<strong>PRIMES</strong>
+			 	<div class="row">
+			 		<div class="col-md-6">
+			 			<div class="logo">
+							<i class="fa fa-star-half-o" aria-hidden="true"></i>
+							<strong>PRIMES</strong>
 						</div>
-					</div>
-				<div class="col-md-6">
-					<div class="menu ">
-						<ul class="list-unstiled list-inline pull-right">
-							<li class="active"><a href="#">Home</a></li>
-							<li><a href="#">Featues</a></li>
-							<li><a href="#">Portafolio</a></li>
-							<li><a href="#">Pricing</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-				
-
-				
+			 		</div>
+			 		<div class="col-md-6">
+						<div class="menu">
+							<ul class="list-unstiled list-inline pull-right">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="#">Features</a></li>
+								<li><a href="#">Portafolio</a></li>
+								<li><a href="#">Pricing</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</div>
+			 		</div>
+			 	</div>
 			
-			<div class="info-banner">
+				<div class="info-banner text-center">
 				<h1>Launch Your <strong>Business</strong> with <strong>	Primes</strong></h1>
 				<p>Vivamus commodo felis quis dui, ac venenalis magna lacinia. Vestibulum quis dignissim nibh. Duis vitae felis orci.</p>
-				<button  type = "button"  class = "">Our Portafolio</button>
-				<button  type = "button"  class = "">Learn More</button>
-			</div>
+
+				<button type="button" class="btn">Our Portafolio</button>
+				<button type="button" class="btn">Learn More</button>
+				</div>
 			</div>
 		</div>
 	</div>
-</section>
-
+	
+	
 <section id="Featues" class="text-center">
 	<div class="container">
 		<div class="row item-featues">
@@ -103,7 +100,7 @@
 		</div>
 	</div>
 	<div class="container item-feature-3">
-		<div class="row">
+		<div class="row list-feature-3">
 			<div class="col-md-6" >
 				<div class="icon-left pull-left"><i class="fa fa-leaf " aria-hidden="true"></i></div>
 				
@@ -115,6 +112,8 @@
 				<h4>Lorem Ipsum</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat error nobis, eum hic dolor, illum animi iusto nisi voluptas molestias eaque asperiores, atque voluptatem omnis! Suscipit, cupiditate, optio! Libero, illo.</p>
 			</div>
+		</div>
+		<div class="row list-feature-3">
 			<div class="col-md-6" >
 				<i class="fa fa-leaf pull-left" aria-hidden="true"></i>
 				<h4>Lorem Ipsum</h4>
@@ -125,6 +124,8 @@
 				<h4>Lorem Ipsum</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat error nobis, eum hic dolor, illum animi iusto nisi voluptas molestias eaque asperiores, atque voluptatem omnis! Suscipit, cupiditate, optio! Libero, illo.</p>
 			</div>
+		</div>
+		<div class="row list-feature-3">
 			<div class="col-md-6" >
 				<i class="fa fa-leaf pull-left" aria-hidden="true"></i>
 				<h4>Lorem Ipsum</h4>
@@ -139,13 +140,13 @@
 	</div>
 </section>
 
-<section id="Portafolio" class="text-center">
+<section id="Portafolio " class="text-center">
 	<div class="cont-portafolio">
 		<div class="container">
 			<h2>Portafolio</h2>
 			<p>Ut lobortis a autorr quis omar orci ireistique vel.Pelicentesque sit ament ulticies nisl.</p>
-			<ul>
-				<li><a href="#">Show All</a></li>
+			<ul class="sub-menu list-unstiled list-inline">
+				<li class="active"><a href="#">Show All</a></li>
 				<li><a href="#">Identity</a></li>
 				<li><a href="#">Web Design</a></li>
 				<li><a href="#">Graphic</a></li>
@@ -196,9 +197,170 @@
 				</div>
 				
 			</div>
-			<a href="">Load More</a>
+			<div class="btn-load">
+				<a  class="btn-load-more" href="">Load More</a>
+			</div>
+			
 		</div>
 	</div>
 </section>
+	
+<section id="Pricing" class="text-center">
+	<div class="cont-img-city">
+		<div class="cont-city">
+			<div class="container Pricing">
+				<p>Quispe aliquamn odio eu magna sodales, vel interdum erat suscipit. Maurris ut porttitor tellus.</p>
+				
+				<a href="#">Call To Action</a>
+			</div>
+		</div>
+	</div>
+	<div class="cont-choose">
+		<div class="container">
+			<h2>Choose the package</h2>
+			<p>Class aptent sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="cont-info-choose">
+						<div class="stan stan-1">
+							<h3>Standard</h3>
+						</div>
+						<div class="from">
+							<p>From <span>$45</span>.99 per month</p>
+						</div>
+						<p>Vestibulum est magna</p>
+						<hr>
+						<p>Maurris auctor massa libero</p>
+						<hr>
+						<p>Praesent magna tortor</p>
+						<hr>
+						<p>Cars et fermentum massa</p>
+						<hr>
+						<a href="#">Purchase</a>
+						<hr>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="cont-info-choose">
+						<div class="stan ">
+							<h3>Standard</h3>
+						</div>
+						<div class="from">
+							<p>From <span>$75</span>.99 per month</p>
+						</div>
+						<p>Vestibulum est magna</p>
+						<hr>
+						<p>Maurris auctor massa libero</p>
+						<hr>
+						<p>Praesent magna tortor</p>
+						<hr>
+						<p>Cars et fermentum massa</p>
+						<hr>
+						<a href="#">Purchase</a>
+						<hr>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="cont-info-choose">
+						<div class="stan  stan-1">
+							<h3>Standard</h3>
+						</div>
+						<div class="from">
+							<p>From <span>$99</span>.99 per month</p>
+						</div>
+						<p>Vestibulum est magna</p>
+						<hr>
+						<p>Maurris auctor massa libero</p>
+						<hr>
+						<p>Praesent magna tortor</p>
+						<hr>
+						<p>Cars et fermentum massa</p>
+						<hr>
+						<a href="#">Purchase</a>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container diana">
+		<h2>What our customers have to say...</h2>
+		<img class="img-diana" src="img/customer.jpg" alt="">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint cumque debitis nam porro. Itaque facilis dolore nostrum amet, necessitatibus a, voluptatum commodi neque consequuntur ab repellendus aperiam dolorem. Recusandae, nostrum!</p>
+		<p><strong>-Diana Rosswert</strong></p>
+	</div>
+</section>
+
+<section id="Contact">
+	<div class="cont-img-contact ">	
+			<div class="cont-contactanos">
+					<div class="container">
+				<div class="row">
+				<div class="cont-cont">
+					<h2 class="text-center">Contact Us</h2>
+					<p class="text-center">>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco.</p>
+					<div class="col-md-6">
+						<div class="cont-formulario">
+							<h3>Send Message</h3>
+							<form>
+								<div class="grupo-input">
+									<input name="email" type="text" id="email" size="30" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }" value="E-mail" >    			
+								</div>
+								<div class="grupo-input">
+									 <input name="name" type="text" id="name" size="30"  onfocus="if(this.value == 'Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name'; }" value="Name" >
+						
+								</div>
+								<div class="grupo-input">
+									<textarea name="comments" cols="40" rows="4" id="comments" onfocus="if(this.value == 'Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Message'; }" >Message</textarea>				
+								</div>
+								<input type="submit" class="send_message" id="submit" value="Submit" />
+							</form>
+						</div>	
+					</div>
+					<div class="col-md-6 info-contac">
+						<h3>About Us</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<h3>Address</h3>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>13  Branst Street, Burtington, Ontario, Canada</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>Phone: 0011 222 335 7773</p>
+					</div>
+				</div>
+					</div>
+					</div>
+			</div>
+	</div>
+	<div class="container text-center info-redes">
+		<div class="rows">
+			<h2>Follow Us!</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae aliquam, est eos dolor veritatis, perspiciatis expedita dolores maiores consequuntur aliquid molestias at ad, neque, modi beatae dolore explicabo odio distinctio?</p>
+			<div class="grup-icon">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-linkedin" aria-hidden="true"></i>
+				<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+				<i class="fa fa-google-plus" aria-hidden="true"></i>
+			</div>
+		</div>
+		
+	</div>
+</section>	
+	<footer>
+		<div class="container text-center footer-pagina">
+			<p>Primes 2015-laboratoria.la</p>
+		</div>
+		
+	</footer>
+
+</div>
 </body>
 </html>

@@ -13,6 +13,7 @@ h2,h3,h4,h5{
   font-weight: bold;
 }
 p{
+  font-family: 'Open Sans', sans-serif;
   color: #888;
 }
 
@@ -161,25 +162,29 @@ img{
 	width: 100%;
 }
 .Pricing{
-padding: 0 250px;
+padding: 150px 150px;
 
 }
 .cont-city{
-	background: rgba(0, 6, 15, 0.5);
+	background: rgba(0, 6, 15, 0.6);
   height: 500px;
   width: 100%;
 }
 .cont-img-city p{
   color: #fff;
   font-size: 1.5em;
-  margin: 150px 0 100px;
+
+}
+.button-call{
+  margin-top: 100px;
 }
 .cont-img-city a{
   padding: 15px 30px;
   font-weight: bold;
   color: #fff;
-  font-size: 1.2em;
-  background:rgba(6, 6, 30, 0.3); 
+  font-size: 1.5em;
+  text-decoration: none;
+  background: rgba(98, 104, 116, 0.4);
 }
 .cont-info-choose{
   max-width: 100%;
@@ -236,7 +241,7 @@ hr{
   background: #393f41;
 }
 .diana {
-  padding: 70px 0;
+  padding: 70px 170px;
 }
 .img-diana{
 	width: 100px;
@@ -249,6 +254,7 @@ hr{
 /*Contacto*/
 .cont-img-contact{
 	background: url(../img/background/contactus.jpg);
+  background-position: 100% left;
   background-size: cover;
   background-repeat: no-repeat;
 	height: auto;
@@ -258,19 +264,24 @@ hr{
 .cont-contactanos{
   background: rgba(0, 6, 15, 0.5);
   height: auto;
+  padding-bottom: 100px;
+}
+.cont-cont h2{
+  padding: 20px 0;
 }
 .cont-cont p{
   color: #fff;
 }
 .cont-formulario input[type="text"],textarea{
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
   height: 50px;
   width: 90%;
   padding-left: 3%;
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 3px;
-  background: rgba(0, 6, 15, 0.5);
+  border-color: transparent;
+  background: rgba(98, 104, 116, 0.4);
   margin-top: 20px;
   box-shadow: 0 0px 3px rgba(0, 0, 0, 0.22) inset;
     -moz-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.22) inset;
@@ -292,15 +303,19 @@ hr{
   color: #fff;
   padding: 15px 40px;
   background:#0dc0c0;
+  border: transparent;
 }
 
 .info-contac p{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 20px;
 }
 .info-contac i{
-  padding-right: 15px;}
-
+  padding-right: 15px;
+  line-height: 2;
+}
+.info-contac .address{
+  padding: 10px 20px;
+}
 .info-redes{
   padding: 50px;
 }
@@ -309,7 +324,7 @@ hr{
   padding-bottom: 20px;
 }
 .info-redes i{
-  font-size: 4em;
+  font-size: 2em;
   margin: 5px;
 }
 /* fin Contacto*/
@@ -348,6 +363,55 @@ hr{
     font-weight: normal;
     line-height: .9;
   }
+  #Featues .item-featues{
+  padding-bottom: 10px;
+}
+  #Featues .item-featues-2{
+  padding-bottom: 10px;
+}
 
 }
 
+
+@media(max-width: 750px){
+  .Pricing {
+    padding: 130px 40px;
+    font-size: 1.2em;
+    line-height: 2;
+  }
+  .diana h2{
+    line-height: 1.5;
+  }
+  .diana p{
+    line-height: 2;
+  }
+   .diana strong{
+    line-height: 1;
+  }
+ }
+
+@media(max-width: 750px){
+  .cont-cont p{
+    padding: 10px 20px;
+    font-size: 1.3em;
+}
+.info-contac h3{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  }
+  .cont-contactanos{
+    padding-bottom: 10px;
+  }
+  .info-redes h2{
+    padding-bottom: 30px;
+  }
+  .info-redes p{
+    padding: 0 80px;
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
+  .grup-icon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
